@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    height: 26em;
+    width: 50em;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    
+}
+body{
+    Font-size: 15px;
+    margin: 6rem 25%;
+    border-radius: 10px;
+}
+svg{
+    margin: 2em;
+}
+h3{
+    font-size: 2em;
+    margin: 1em;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+background-color:  hsl(179, 100%, 13%);
+}
+p{
+    margin: 30px;
+}
+button{
+    padding: 1em;
+    width: 10em;
+    border: 1px;
+    border-radius: 30px;
+    margin-top: 0.2em;
+    margin-left: 4em;
+}
+.sedans button{
+    color: hsl(31, 77%, 52%);
+}
+.sedans button:hover{
+    background-color: hsl(31, 77%, 52%);
+    border:2px solid #fff;
+    color: #fff;
+}
+.suv button{
+    color: hsl(184, 100%, 22%);
+}
+.suv button:hover{
+    background-color: hsl(184, 100%, 22%);
+    border:2px solid #fff;
+    color: #fff;
+}
+.luxury button{
+    color: hsl(179, 100%, 13%);
+}
+.luxury button:hover{
+    background-color: hsl(179, 100%, 13%);
+    border:2px solid #fff;
+    color: #fff;
+}
+@media (max-width:400px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        height: 10em;
+        width: 20em;
+    }  
+    body{
+        Font-size: 15px;
+        margin: 3em 1%;
+    }
+    button{
+        margin: 1em 0 1em 2em;
+        
+    }
+}
