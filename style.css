@@ -90,4 +90,15 @@ button {
   .luxury {
       border-radius: 0 0 1rem 1rem;
   }
+  h3{
+    /* border: 1px solid green; */
+    margin-top: .5rem;
+  }
+  svg{
+    /* border: 1px solid green; */
+    margin-bottom: 0;
+  }
+  button{
+    margin-bottom: 3rem;
+  }
 }
