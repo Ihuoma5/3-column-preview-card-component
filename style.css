@@ -14,6 +14,12 @@ body {
   margin: 6rem 25%;
   border-radius: 10px;
 }
+@media screen and (max-width: 1024px) {
+  body {
+    margin: 3rem 12%;
+  }
+}
+
 svg {
   margin: 2em;
 }
@@ -85,20 +91,20 @@ button {
     margin: 1rem 0 1rem 2rem;
   }
   .sedans {
-      border-radius: 1rem 1rem 0 0;
+    border-radius: 1rem 1rem 0 0;
   }
   .luxury {
-      border-radius: 0 0 1rem 1rem;
+    border-radius: 0 0 1rem 1rem;
   }
-  h3{
+  h3 {
     /* border: 1px solid green; */
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
-  svg{
+  svg {
     /* border: 1px solid green; */
     margin-bottom: 0;
   }
-  button{
+  button {
     margin-bottom: 3rem;
   }
 }
